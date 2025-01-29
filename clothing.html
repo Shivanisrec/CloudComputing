@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Haven</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .clothing-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .clothing-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .clothing-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .clothing-item h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5rem;
+            color: #ff6f61;
+        }
+        .clothing-item p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fashion Haven</h1>
+        <p>Your Style, Your Way</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="clothing-item">
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Men's T-Shirt">
+            <h3>Men's T-Shirt</h3>
+            <p>$25.00</p>
+        </div>
+        <div class="clothing-item">
+            <img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Women's Dress">
+            <h3>Women's Dress</h3>
+            <p>$49.99</p>
+        </div>
+        <div class="clothing-item">
+            <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Kid's Jacket">
+            <h3>Kid's Jacket</h3>
+            <p>$35.00</p>
+        </div>
+        <div class="clothing-item">
+            <img src="https://images.unsplash.com/photo-1523381294911-8d3ceadef75a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Men's Hoodie">
+            <h3>Men's Hoodie</h3>
+            <p>$40.00</p>
+        </div>
+        <div class="clothing-item">
+            <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Women's Jacket">
+            <h3>Women's Jacket</h3>
+            <p>$55.00</p>
+        </div>
+        <div class="clothing-item">
+            <img src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Kid's T-Shirt">
+            <h3>Kid's T-Shirt</h3>
+            <p>$18.00</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Fashion Haven. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
